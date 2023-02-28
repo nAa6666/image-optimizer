@@ -1,17 +1,5 @@
-## Intervention/image
-[Link](https://image.intervention.io/v2)
+<?php
 
-```
-composer require intervention/image
-```
-
-![](./public/compress.jpg)
-## UploadRequest
-![](./public/request.jpg)
-![](./public/request_error.jpg)
-
-app\Http\Controllers\TestController.php
-```
 namespace App\Http\Controllers;
 
 use App\Http\Requests\UploadRequest;
@@ -41,4 +29,4 @@ class TestController extends Controller
     public function show(){
         return view('test');
     }
-```
+}
